@@ -190,7 +190,65 @@
                         <i class="mod-service-icon mod_service_zheng"></i>
                         <div class="mod_service_tit">
                             <h5>正品保障</h5>
-                            <p>正品保障，提供发票</p>
+                            <p>正品保障，提供发票</p>/* 首页的样式 */
+.main {
+    width: 980px;
+    height: 455px;
+    /* background-color:pink; */
+    margin:  10px 0 0 219px ;
+}
+.focus {
+    position: relative;
+    width: 720px;
+    height: 455px;
+    background-color: purple;
+}
+.arrow-l,
+.arrow-r {
+    position: absolute;
+    /* 垂直居中: 高度的一半，然后上升到自己高度的一半 */
+    top: 50%;
+    /* 上升为负号 */
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    /* 达到半透明的效果 */
+    background: rgba(0,0,0,.3);
+    /* 水平居中 */
+    text-align: center;
+    /* 垂直居中高度=盒子高度 */
+    line-height: 40px;
+    color: #fff ;
+    font-family: 'icomoon';
+    fontSize:18px;
+}
+.arrow-r {
+    right: 0;
+}
+.circle {
+    position: absolute;
+    bottom:10px ;
+    left: 50px;
+}
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    /* background-color: #fff; */
+    border: 2px solid rgba(255,255,255,.5);
+    margin: 0 3px;
+    border-radius: 50%;
+    /* 鼠标显示小手 */
+    cursor: pointer;
+}
+.current {
+    background-color: #fff;
+}
+.newsflash {
+    width: 250px;
+    height: 455px;
+    background-color: skyblue;
+}
                         </div>
                     </li>
                     <li>
