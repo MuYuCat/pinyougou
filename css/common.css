@@ -207,7 +207,7 @@
 }
 .mod_service {
     height: 79px;
-    background: pink;
+    /* background: pink; */
     border-bottom: 1px solid #ccc;
 }
 .mod_service li {
@@ -241,10 +241,11 @@
 }
 .mod_help {
     height: 187px;
-    background-color: pink;
+    /* background-color: pink; */
     border-bottom: 1px solid #ccc;
 }
 .mod_help_item {
+    float: left;
     width: 150px;
     padding: 20px 0 0 50px;
 }
@@ -254,4 +255,36 @@
 }
 .mod_help_item dd {
     height: 22px;
+}
+.mod_help_app dt,
+.mod_help_app p {
+    padding-left: 15px;
+}
+.mod_help_app p {
+    margin: 3px 0;
+}
+.mod_copyright {
+    text-align: center;
+}
+.mod_copyright p{
+    display: block;
+}
+.mod_copyright li {
+    float: left;
+    margin: 0px 15px 0px 1px;
+    text-align: center;
+    padding: 0 0 10px 0;
+}
+.mod_copyright_links {
+    margin: auto;
+    padding: 5px 0;
+}
+.spacer_bottom {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 3px 12px 0px;
+}
+.mod_copyright_info {
+    line-height:40px;
 }
