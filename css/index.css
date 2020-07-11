@@ -173,6 +173,60 @@
 /* floor 区 */
 .box-hd {
     height: 30px;
-    background-color: pink;
+    /* background-color: pink; */
     border-bottom: 2px solid #c81623;
+}
+.box-hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+}
+.tab-list {
+    line-height: 30px;
+}
+.tab-list li {
+    float: left;
+}
+.tab-list li a {
+    margin: 0 15px;
+}
+.box-bd {
+    height: 360px;
+    background-color:pink;
+}
+.w209 {
+    width: 209px;
+    background-color: #f9f9f9;
+}
+.w329 {
+    width: 329px;
+}
+.w219 {
+    width: 219px;
+    border-right: 1px solid #ccc;
+}
+.w220 {
+    width: 220px;
+    border-right: 1px solid #ccc;
+}
+.tab-con li {
+    float: left;
+    height: 360px;
+}
+.top-con-item {
+    border-bottom: 1px solid #ccc;
+}
+.tab-con-list {
+    /* 盒子没有高度，所以要取消浮动--父亲没有高，只有一条线，孩子浮动会出问题 */
+    /* 所以清除浮动，检测高度，再加上mgb */
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.tab-con-list li {
+    width: 86px;
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px solid #ccc;
+    margin-left: 10px;
+    text-align: center;
 }
