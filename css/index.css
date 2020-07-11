@@ -28,7 +28,7 @@
     line-height: 40px;
     color: #fff ;
     font-family: 'icomoon';
-    fontSize:18px;
+    font-Size:18px;
 }
 .arrow-r {
     right: 0;
@@ -55,5 +55,124 @@
 .newsflash {
     width: 250px;
     height: 455px;
-    background-color: skyblue;
+}
+.news {
+    height: 163px;
+    border: 1px solid #ccc;
+}
+.news-hd {
+    height: 32px;
+    /* dotted 点线 dashed 虚线 */
+    border-bottom: 1px dotted #ccc;
+    font-size: 14px;
+    line-height: 32px;
+    padding: 0 15px;
+}
+.news-hd a{
+    float: right;
+}
+.news-bd {
+    padding: 10px 0 0 15px;
+}
+.news-bd li{
+    height: 23px;
+}
+.lifeservice {
+    height: 208px;
+    /* background-color: purple; */
+    /* border 不能写成 1px 1px 1px 0px 的格式 */
+    border: 1px solid #ccc;
+    border-top: 0px;
+    overflow: hidden;
+}
+.lifeservice ul {
+    width: 252px;
+}
+.lifeservice li {
+    position: relative;
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.lifeservice li a {
+    /* 转换称为block之后 宽是继承父亲的 */
+    display: block;
+    /* 高 也形成100% */
+    height: 100%;
+    /* 解决 i 引起的 外边框塌陷合并的问题 */
+    overflow: hidden;
+}
+.lifeservice li p {
+    text-align: center;
+}
+.hot {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 12px;
+    height: 15px;
+    background: url(../img/jian.jpg) no-repeat;
+}
+.service_ico {
+    /* i 是行内元素无大小，所以转换成为块状元素 */
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../img/icons.png) no-repeat;
+    margin: 10px auto;
+}
+.service_ico_huafei {
+    background-position: -17px -16px;
+}
+.service_ico_feiji {
+    width: 26px;
+    background-position: -78px -16px;
+}
+.bargain {
+    height: 75px;
+    margin-top: 5px;
+}
+/* 推荐模块 */
+.recommend {
+    height: 163px;
+    /* background-color: pink; */
+    margin-top: 10px;
+}
+.recom-hd {
+    width: 200px;
+    height: 163px;
+    background-color: #5c5251;
+    text-align: center;
+}
+.recom-hd img {
+    margin: 30px 0 10px 0px;
+}
+.recom-hd h3 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+}
+.recom-bd {
+    width: 1000px;
+    height: 163px;
+    background-color: #ebebeb;
+}
+.recom-bd li {
+    width: 249px;
+    border-right: 1px solid #ccc;
+    height: 145px;
+    /* background-color: pink; */
+    float: left;
+    margin-top: 10px;
+}
+.recom-bd .last {
+    border-right: 0px;
+}
+/* floor 区 */
+.box-hd {
+    height: 30px;
+    background-color: pink;
+    border-bottom: 2px solid #c81623;
 }
