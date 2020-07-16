@@ -166,8 +166,10 @@
     margin-left: 1px;
     /* 盒子没有宽度，所以不会撑开 */
     padding: 0 10px;
+    transition: all .5s;
 }
 .menu_item:hover {
+    padding-left: 20px;
     background-color: #fff;
 }
 /* 鼠标经过 li 里面的 a变颜色 */

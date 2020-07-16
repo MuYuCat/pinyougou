@@ -230,3 +230,30 @@
     margin-left: 10px;
     text-align: center;
 }
+.box-bd img {
+    transition: all .2s;
+}
+.box-bd img:hover {
+    margin-left: 8px ;
+}
+/* 电梯导航区域 */
+.fixedtool {
+    width: 66px;
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    margin-left: -666px;
+    background-color: #fff;
+}
+.fixedtool li {
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+.fixedtool .current {
+    background-color: #c81623;
+    color: #fff;
+}
